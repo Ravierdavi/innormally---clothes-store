@@ -1,0 +1,66 @@
+/* Estilos Gerais de Texto */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: var(--base-font-size);
+    line-height: 1.6;
+    color: var(--primary-color);
+}
+
+/* Estilos de Títulos */
+h1 {
+    font-size: var(--heading-h1);
+    margin: 0 0 var(--spacing-heading-h1) 0;
+    color: var(--secondary-color);
+}
+
+.section-title {
+    font-size: var(--heading-section);
+}
+
+.newsletter-title {
+    font-size: var(--paragraph);
+    margin-bottom: var(--spacing-heading-newsletter);
+}
+
+h2 {
+    font-size: var(--heading-h2);
+    margin: 0 0 var(--spacing-heading-h2) 0;
+}
+
+/* Estilos de Parágrafos */
+p {
+    margin: var(--spacing-paragraph);
+}
+
+.newsletter-text {
+    font-size: var(--paragraph-smaller);
+    margin: 0 0 var(--spacing-paragraph-newsletter) 0;
+}
+
+.disclaimer {
+    font-size: var(--paragraph-extra-smaller);
+}
+
+/* Estilos de Listas */
+ul {
+    list-style: none;
+    margin: var(--spacing-ul) 0 0 0;
+}
+
+li + li {
+    margin: var(--spacing-li) 0 0 0;
+}
+
+/* Estilos para Texto com Destaque */
+strong {
+    font-weight: bold;
+}
+
+/* Estilos para Texto de Rodapé */
+footer {
+    font-size: var(--footer);
+}
+
+footer a {
+    color: var(--background-color);
+}

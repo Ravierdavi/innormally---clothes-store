@@ -1,0 +1,46 @@
+/* Aplicar box-sizing: border-box; globalmente */
+* {
+    box-sizing: border-box;
+}
+
+/* Alinhamento de Texto */
+.text-center {
+    text-align: center;
+}
+
+/* Alinhamento Vertical */
+.vertical-center {
+    display: flex;
+    align-items: center;
+}
+
+/* Cores de Fundo */
+.bg-primary {
+    background-color: var(--background-color);
+    color: var(--primary-color);
+}
+
+.bg-secondary {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+}
+
+/* Bordas */
+.rounded-corners {
+    border-radius: 10px;
+}
+
+/* Ocultar Elementos */
+.hidden {
+    display: none;
+}
+
+/* Visibilidade */
+.visible {
+    visibility: visible;
+}
+
+.invisible {
+    visibility: hidden;
+}
+

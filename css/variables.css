@@ -1,0 +1,29 @@
+/* Cores */
+:root {
+    --primary-color: #101010;
+    --secondary-color: #222;
+    --background-color: #f5f5f5;
+}
+
+/* Tamanho de fontes */
+:root {
+    --base-font-size: 16px;
+    --heading-h1: 1.875rem;
+    --heading-h2: 1rem;
+    --heading-section: 1.5rem;
+    --paragraph: 1rem;
+    --paragraph-smaller: 0.75rem;
+    --paragraph-extra-smaller: 0.6875rem;
+    --footer: 0.75rem;
+}
+
+/* Espaçamentos */
+:root {
+    --spacing-paragraph: 0;
+    --spacing-ul: 2rem;
+    --spacing-li: 1.875rem;
+    --spacing-heading-h1: 0.5rem;
+    --spacing-heading-h2: 1rem;
+    --spacing-heading-newsletter: 1rem;
+    --spacing-paragraph-newsletter: 1.5rem;
+}
