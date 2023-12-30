@@ -41,6 +41,16 @@ p {
     font-size: var(--paragraph-extra-smaller);
 }
 
+.pitchBarSlide-content {
+    margin-left: var(--pitchBar-slide-content-margin-left);
+    font-size: var(--pitchBar-slide-content-font-size);
+}
+
+.pitchBarSlide-highLightText {
+    font-size: var(--pitchBar-slide-highlight-font-size);
+    font-weight: bold;
+}
+
 /* Estilos de Listas */
 ul {
     list-style: none;

@@ -12,9 +12,11 @@
     --heading-h2: 1rem;
     --heading-section: 1.5rem;
     --paragraph: 1rem;
-    --paragraph-smaller: 0.75rem;
-    --paragraph-extra-smaller: 0.6875rem;
-    --footer: 0.75rem;
+    --paragraph-smaller: .75rem;
+    --paragraph-extra-smaller: .6875rem;
+    --picthBar-slide-content-font-size: .875rem;
+    --picthBar-slide-highlight-font-size: 1rem;
+    --footer: .75rem;
 }
 
 /* Espaçamentos */
@@ -22,8 +24,34 @@
     --spacing-paragraph: 0;
     --spacing-ul: 2rem;
     --spacing-li: 1.875rem;
-    --spacing-heading-h1: 0.5rem;
+    --spacing-heading-h1: .5rem;
     --spacing-heading-h2: 1rem;
     --spacing-heading-newsletter: 1rem;
     --spacing-paragraph-newsletter: 1.5rem;
+
+    --header-height: 3.75rem;
+    --header-logo-width: 1.75rem;
+    --header-logo-height: 3.25rem;
+    --rightContent-width: 9.375rem;
+    --rightContent-min-width: 7.5rem;
+    --header-button-size: 1.875rem;
+    --header-button-padding: 0.3125rem;
+
+    --search-padding: 1.25rem 0;
+    --search-input-height: 2.8125rem;
+    --search-input-padding-left: 3rem;
+    --search-button-position: .46875rem;
+    
+    --pitchBar-height: 3.44rem;
+    --pitchBar-arrow-button-size: 1.63rem;
+    --pitchBar-arrow-button-padding: .313rem;
+    --pitchBar-arrow-button-position: .625rem;
+    --pitchBar-carousel-padding: 0.625rem 0;
+    --pitchBar-slide-img-size-cardSlide: 1.75rem;
+    --pitchBar-slide-img-width-deliverySlide: 2.1875rem;
+    --pitchBar-slide-img-height-deliverySlide: 1.1875rem;
+    --pitchBar-slide-img-size-ticketSlide: 1.4375rem;
+    --pitchBar-slide-img-width-securitySlide: 1.375rem;
+    --pitchBar-slide-img-height-securitySlide: 1.5rem;
+    --pitchBar-slide-content-margin-left: .313rem;
 }
