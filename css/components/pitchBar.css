@@ -1,0 +1,66 @@
+/* Estilos para a barra de pitch */
+.pitchBar {
+    height: var(--pitchBar-height);
+    overflow: hidden;
+    position: relative;
+}
+
+.pitchBarArrowButton {
+    position: absolute;
+    width: var(--pitchBar-arrow-button-size);
+    height: var(--pitchBar-arrow-button-size);
+    padding: var(--pitchBar-arrow-button-padding);
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.prevButton {
+    left: var(--pitchBar-arrow-button-position);
+}
+
+.nextButton {
+    right: var(--pitchBar-arrow-button-position);
+    transform: rotate(180deg);
+}
+
+.pitchBar-carousel {
+    display: flex;
+    padding: var(--pitchBar-carousel-padding);
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+}
+
+.pitchBarSlide {
+    min-width: 100vw;
+    display: grid;
+    grid-template-columns: max-content auto;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+}
+
+.cardSlide .pitchBarSlide-img{
+    width: var(--pitchBar-slide-img-size-cardSlide);
+    height: var(--pitchBar-slide-img-size-cardSlide);
+}
+
+.deliverySlide .pitchBarSlide-img{
+    width: var(--pitchBar-slide-img-width-deliverySlide);
+    height: var(--pitchBar-slide-img-height-deliverySlide);
+}
+
+.ticketSlide .pitchBarSlide-img{
+    width: var(--pitchBar-slide-img-size-ticketSlide);
+    height: var(--pitchBar-slide-img-size-ticketSlide);
+}
+
+.securitySlide .pitchBarSlide-img{
+    width: var(--pitchBar-slide-img-width-securitySlide);
+    height: var(--pitchBar-slide-img-height-securitySlide);
+}
+
+.pitchBarSlide-content span {
+    display: inline;
+}
