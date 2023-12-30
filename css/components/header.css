@@ -1,13 +1,13 @@
 /* Cabeçalho */
 .mainHeader {
-    height: 60px;
+    height: var(--header-height);
     justify-content: space-between;
 }
 
 /* Logo */
 .headerLogo {
-    width: 28px;
-    height: 52px;
+    width: var(--header-logo-width);
+    height: var(--header-logo-height);
 }
 
 /* Navegação */
@@ -17,14 +17,14 @@
 .rightContent {
     display: flex;
     justify-content: space-between;
-    width: 150px;
-    min-width: 120px;
+    width: var(--rightContent-width);
+    min-width: var(--rightContent-min-width);
 }
 
 .header-button {
-    width: 30px;
-    height: 30px;
-    padding: 5px;
+    width: var(--header-button-size);
+    height: var(--header-button-size); 
+    padding: var(--header-button-padding);
     cursor: pointer;
     background-color: transparent;
     border-radius: 50%;
@@ -37,8 +37,7 @@
 
 /* Caixa de pesquisa */
 .search {
-    margin-bottom: 20px;
-    padding: 20px 0;
+    padding: var(--search-padding);
 }
 
 .search-form {
@@ -47,12 +46,12 @@
 
 .search-input {
     width: 100%;
-    height: 45px;
-    padding-left: 40px;
+    height: var(--search-input-height);
+    padding-left: var(--search-input-padding-left);
 }
 
 .search-button {
     position: absolute;
-    top: 7.5px;
-    left: 7.5px;
+    top: var(--search-button-position);
+    left: var(--search-button-position);
 }
