@@ -19,7 +19,7 @@ h1 {
 
 .newsletter-title {
     font-size: var(--paragraph);
-    margin-bottom: var(--spacing-heading-newsletter);
+    margin: var(--newsletter-heading-margin);
 }
 
 h2 {
@@ -34,7 +34,18 @@ p {
 
 .newsletter-text {
     font-size: var(--paragraph-smaller);
-    margin: 0 0 var(--spacing-paragraph-newsletter) 0;
+    margin-bottom: var(--newsletter-paragraph-margin-bottom);
+}
+
+.sr-only {
+    margin-bottom: var(--newsletter-sr-only-margin-bottom);
+    font-size: var(--paragraph-smaller);
+    font-weight: bold;
+}
+
+.submit-button {
+    font-size: var(--paragraph);
+    font-weight: bold;
 }
 
 .disclaimer {
@@ -47,7 +58,6 @@ p {
 }
 
 .pitchBarSlide-highLightText {
-    font-size: var(--pitchBar-slide-highlight-font-size);
     font-weight: bold;
 }
 
