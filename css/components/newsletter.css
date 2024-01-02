@@ -1,0 +1,63 @@
+/* Estilos para a seção de newsletter */
+.newsletter {
+    display: grid;
+    grid: 'title' 'text' 'form' 'disclaimer';
+    max-width: var(--newsletter-max-width);
+    margin: auto;
+    padding: var(--newsletter-padding);
+}
+
+.newsletter-title {
+    grid-area: title;
+}
+
+.newsletter-text {
+    grid-area: text;
+}
+
+.newsletter-form {
+    grid-area: form;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: last baseline;
+    column-gap: var(--newsletter-form-column-gap);
+    max-width: var(--newsletter-form-max-width);
+}
+
+.email-box {
+    display: grid;
+    flex: 1 1 var(--newsletter-email-box-flex-basis);
+}
+
+.newsletter-input {
+    height: var(--newsletter-input-height);
+    margin-bottom: var(--newsletter-input-margin-bottom);
+    padding: var(--newsletter-input-padding);
+    border: var(--newsletter-input-border-size) solid var(--primary-color);
+}
+
+.submit-button {
+    flex: 1 1 var(--newsletter-submit-button-flex-basis);
+    height: var(--newsletter-submit-button-height);
+    margin-bottom: var(--newsletter-submit-button-margin-bottom);
+    padding: var(--newsletter-submit-button-padding);
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.submit-button:hover {
+    background-color: var(--secondary-color);
+}
+
+.disclaimer {
+    grid-area: disclaimer;
+}
+
+@media (min-width: 768px) {
+    .newsletter {
+        grid: 'title form' 35px
+        'text form'
+        'disclaimer disclaimer' / 400px minmax(min-content, 550px);
+        justify-content: space-between;
+    }
+}

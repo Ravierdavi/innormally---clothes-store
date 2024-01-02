@@ -269,20 +269,22 @@
             </section>
         </main>
 
-        <section class="newsletter bg-primary">
-            <h1 class="newsletter-title">Receba Novidades</h1>
-        
-            <p class="newsletter-text">Cadastre-se para informar-se sobre os últimos lançamentos, ofertas exclusivas e muito mais!</p>
-        
-            <form action="#" method="post" class="newsletter-form">
-                <label for="email" class="sr-only">Endereço de E-mail</label>
-                <input type="email" id="email" name="email" placeholder="Seu e-mail" required>
-        
-                <button type="submit" class="submit-button text-center">Enviar</button>
-            </form>
-        
-            <p class="disclaimer">Ao inserir seu endereço de e-mail, você concorda em receber ofertas, promoções e outras mensagens comerciais da Innormally. Pode ser cancelado a qualquer momento.</p>
-        </section>
+        <div class="bg-primary">
+            <section class="newsletter">
+                <h1 class="newsletter-title">Receba Novidades</h1>
+                <p class="newsletter-text">Cadastre-se para informar-se sobre os últimos lançamentos, ofertas exclusivas e muito mais!</p>
+                
+                <form action="#" method="post" class="newsletter-form">
+                    <div class="email-box">
+                        <label for="email" class="sr-only">Endereço de E-mail</label>
+                
+                        <input type="email" class="newsletter-input" id="email" name="email" required>
+                    </div>
+                    <button type="submit" class="submit-button text-center bg-secondary">Enviar</button>
+                </form>
+                <p class="disclaimer">Ao inserir seu endereço de e-mail, você concorda em receber ofertas, promoções e outras mensagens comerciais da Innormally. Pode ser cancelado a qualquer momento.</p>
+            </section>
+        </div>
         
         <footer class="mainFooter bg-secondary">
             <section class="footer-section">
