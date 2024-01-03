@@ -1,0 +1,30 @@
+.innormally-container {
+    display: grid;
+    grid-template: auto / 1fr;
+    min-height: 100vh;
+}
+
+.header {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.pitchBar {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.main-content {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.newsletter {
+    grid-column: 1;
+    grid-row: 4;
+}
+
+.mainFooter {
+    grid-column: 1;
+    grid-row: 5;
+}
