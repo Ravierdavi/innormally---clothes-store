@@ -27,7 +27,7 @@
 
 /* Bordas */
 .rounded-corners {
-    border-radius: 50px;
+    border-radius: var(--rounded-corners-border-radius);
 }
 
 /* Ocultar Elementos */

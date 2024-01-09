@@ -61,14 +61,26 @@ p {
     font-weight: bold;
 }
 
+.product-name {
+    font-size: var(--feature-product-name-font-size);
+    color: var(--primary-color);
+    margin-top: var(--feature-product-name-margin-top);
+}
+
+.product-price {
+    font-size: var(--feature-product-price-font-size);
+}
+
 /* Estilos de Listas */
 ul {
     list-style: none;
     margin: var(--spacing-ul) 0 0 0;
 }
 
-li + li {
-    margin: var(--spacing-li) 0 0 0;
+.hot-list-link {
+    font-size: var(--hot-list-link);
+    font-weight: bold;
+    color: var(--primary-color);
 }
 
 /* Estilos para Texto com Destaque */

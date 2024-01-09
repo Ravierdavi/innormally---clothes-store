@@ -15,16 +15,20 @@
     --paragraph-smaller: .75rem;
     --paragraph-extra-smaller: .6875rem;
     --pitchBar-slide-content-font-size: 1rem;
+    --hot-list-link: 2rem;
+    --feature-product-name-font-size: .75rem;
+    --feature-product-price-font-size: .875rem;
     --footer: .75rem;
 }
 
 /* Espaçamentos */
 :root {
+    --side-padding: 1rem;
     --spacing-paragraph: 0;
     --spacing-ul: 2rem;
-    --spacing-li: 1.875rem;
     --spacing-heading-h1: .5rem;
     --spacing-heading-h2: 1rem;
+    --rounded-corners-border-radius: 3.125rem;
 
     --header-height: 3.75rem;
     --header-logo-width: 1.75rem;
@@ -33,17 +37,20 @@
     --rightContent-min-width: 7.5rem;
     --header-button-size: 1.875rem;
     --header-button-padding: 0.3125rem;
+    --header-button-border-radius: 50%;
 
-    --search-padding: 1.25rem 0;
+    --search-padding: 1.25rem;
+    --search-input-width: 100%;
     --search-input-height: 2.8125rem;
     --search-input-padding-left: 3rem;
     --search-button-position: .46875rem;
     
     --pitchBar-height: 3.44rem;
+    --pitchBar-padding: 0 3rem;
     --pitchBar-arrow-button-size: 1.63rem;
     --pitchBar-arrow-button-padding: .313rem;
     --pitchBar-arrow-button-position: .625rem;
-    --pitchBar-carousel-padding: .625rem 0;
+    --pitchBar-slide-flex-basis: 100%;
     --pitchBar-slide-img-size-cardSlide: 1.75rem;
     --pitchBar-slide-img-width-deliverySlide: 2.1875rem;
     --pitchBar-slide-img-height-deliverySlide: 1.1875rem;
@@ -52,8 +59,42 @@
     --pitchBar-slide-img-height-securitySlide: 1.5rem;
     --pitchBar-slide-content-margin-left: .313rem;
 
+    --main-content-gap: 3.75rem;
+    --main-content-max-width: 85rem;
+
+    --hot-button-width: 7.5rem;
+    --hot-button-height: 2.5rem;
+    --hot-list-gap: 1.25rem;
+    --hot-list-max-width: 80rem;
+    --hot-list-item-height: 3.75rem;
+    --hot-list-item-flex-basis: 19.125rem;
+    --hot-list-item-border-bottom-width: .0625rem;
+    --hot-list-item-border-bottom-width-hover: .5rem;
+
+    --feature-max-width: 69.375rem;
+    --feature-scrollbar-height: .375rem;
+    --feature-list-gap: 1.25rem;
+    --feature-list-padding-bottom: 1.25rem;
+    --feature-product-flex-basis: 11.25rem;
+    --feature-product-max-width: 16rem;
+    --feature-product-name-height: 2.5rem;
+    --feature-product-name-margin-top: .313rem;
+    --feature-product-button-height: 2rem;
+    --feature-product-button-margin-top: .625rem;
+
+    --release-slide-flex-basis: 100%;
+    --release-pagination-bottom: 30%;
+    --release-pagination-left: 50%;
+    --release-pagination-translateX: -50%;
+    --release-pagination-dot-size: .9375rem;
+    --release-pagination-dot-border-radius: 50%;
+    --release-pagination-dot-margin: 0 .5rem;
+
+    --image-gallery-gap: .625rem;
+    --image-gallery-flex-basis: 11.25rem;
+
     --newsletter-max-width: 80rem;
-    --newsletter-padding: 1.875rem 0;
+    --newsletter-padding: 1.875rem;
     --newsletter-heading-margin: 0 0 .625rem 0;
     --newsletter-paragraph-margin-bottom: 1.25rem;
     --newsletter-form-column-gap: 1.25rem;

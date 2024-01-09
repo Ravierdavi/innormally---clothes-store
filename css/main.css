@@ -2,7 +2,4 @@
 @import url(base/normalize.css);
 @import url(base/typography.css);
 @import url(base/utilities.css);
-@import url(components/header.css);
-@import url(components/pitchBar.css);
-@import url(components/newsletter.css);
 @import url(layout/grid.css);
