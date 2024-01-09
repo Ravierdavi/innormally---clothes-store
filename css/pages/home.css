@@ -1,0 +1,176 @@
+@import url('../components/header.css');
+@import url('../components/pitchBar.css');
+@import url('../components/newsletter.css');
+
+/* Estilos para o conteúdo principal */
+.main-content {
+    display: grid;
+    grid-template: auto / 1fr;
+    gap: var(--main-content-gap);
+    max-width: var(--main-content-max-width);
+    margin: auto;
+    padding: 0 var(--side-padding);
+}
+
+/* Estilos para a Abertura */
+.oppening {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+/* Estilos para a seção "Em alta" */
+.hot {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.hot-buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hot-button {
+    display: grid;
+    place-items: center;
+    width: var(--hot-button-width);
+    height: var(--hot-button-height);
+    transition: 0.2s ease-in-out;
+}
+
+.hot-button:hover {
+    text-decoration: underline;
+    background-color: var(--secondary-color);
+}
+
+.hot-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--hot-list-gap);
+    max-width: var(--hot-list-max-width);
+    padding: 0;
+}
+
+.hot-list-item {
+    height: var(--hot-list-item-height);
+    flex: 1 1 var(--hot-list-item-flex-basis);
+    border-bottom: var(--hot-list-item-border-bottom-width) solid var(--primary-color);
+}
+
+.hot-list-item:hover {
+    border-bottom-width: var(--hot-list-item-border-bottom-width-hover); 
+}
+
+/* Estilos para a seção "Novidades" */
+.feature {
+    grid-column: 1;
+    grid-row: 3;
+    max-width: var(--feature-max-width);
+    margin: auto;
+}
+
+.feature-scroll-container {
+    overflow: auto;
+}
+
+.feature-scroll-container::-webkit-scrollbar {
+    height: var(--feature-scrollbar-height);
+}
+
+.feature-scroll-container::-webkit-scrollbar-thumb {
+    background-color: var(--primary-color);
+}
+
+.feature-scroll-container::-webkit-scrollbar-track {
+    background-color: var(--background-color);
+}
+
+.feature-list {
+    display: flex;
+    gap: var(--feature-list-gap);
+    padding: 0 0 var(--feature-list-padding-bottom) 0;
+}
+
+.product {
+    flex: 1 0 var(--feature-product-flex-basis);
+    max-width: var(--feature-product-max-width);
+}
+
+.product-name {
+    display: block;
+    height: var(--feature-product-name-height);
+}
+
+.product-button {
+    display: grid;
+    place-items: center;
+    height: var(--feature-product-button-height);
+    margin-top: var(--feature-product-button-margin-top);
+    transition: 0.2s ease-in-out;
+}
+
+.product-button:hover {
+    text-decoration: underline;
+    background-color: var(--secondary-color);
+}
+
+/* Estilos para a seção "Lançamentos" */
+.release {
+    grid-column: 1;
+    grid-row: 4;
+}
+
+.release-carousel {
+    position: relative;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+}
+
+.release-carousel::-webkit-scrollbar {
+    height: 0;
+}
+
+.release-slides-container {
+    display: flex;
+}
+
+.releaseSlide {
+    flex: 0 0 var(--release-slide-flex-basis);
+    scroll-snap-align: start;
+}
+
+.release-pagination {
+    position: absolute;
+    bottom: var(--release-pagination-bottom);
+    left: var(--release-pagination-left);
+    transform: translateX(var(--release-pagination-translateX));
+}
+
+.pagination-dot {
+    width: var(--release-pagination-dot-size);
+    height: var(--release-pagination-dot-size);
+    background-color: #007BFF;
+    border-radius: var(--release-pagination-dot-border-radius);
+    display: inline-block;
+    margin: var(--release-pagination-dot-margin);
+}
+
+/* Estilos para a galeria de imagens */
+.instagram-gallery {
+    grid-column: 1;
+    grid-row: 5;
+}
+
+.image-gallery {
+    display: flex;
+    gap: var(--image-gallery-gap);
+    overflow: auto;
+}
+
+.image-gallery::-webkit-scrollbar {
+    height: 0;
+}
+
+.image-gallery figure {
+    flex: 1 0 var(--image-gallery-flex-basis);
+    margin: 0;
+}
