@@ -1,6 +1,7 @@
 /* Estilos para a barra de pitch */
 .pitchBar {
     height: var(--pitchBar-height);
+    padding: var(--pitchBar-padding);
     overflow: hidden;
     position: relative;
 }
@@ -12,7 +13,6 @@
     padding: var(--pitchBar-arrow-button-padding);
     background-color: transparent;
     cursor: pointer;
-    border-radius: 50%;
 }
 
 .prevButton {
@@ -26,14 +26,17 @@
 
 .pitchBar-carousel {
     display: flex;
-    padding: var(--pitchBar-carousel-padding);
     overflow-x: auto;
     overflow-y: hidden;
     scroll-snap-type: x mandatory;
 }
 
+.pitchBar-carousel::-webkit-scrollbar {
+    height: 0;
+}
+
 .pitchBarSlide {
-    min-width: 100vw;
+    flex: 0 0 var(--pitchBar-slide-flex-basis);
     display: grid;
     grid-template-columns: max-content auto;
     justify-content: center;

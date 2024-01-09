@@ -1,7 +1,8 @@
 /* Cabeçalho */
 .mainHeader {
-    height: var(--header-height);
     justify-content: space-between;
+    height: var(--header-height);
+    padding: 0 var(--side-padding);
 }
 
 /* Logo */
@@ -27,7 +28,7 @@
     padding: var(--header-button-padding);
     cursor: pointer;
     background-color: transparent;
-    border-radius: 50%;
+    border-radius: var(--header-button-border-radius);
     transition: background-color .2s ease-in;
 }
 
@@ -37,7 +38,7 @@
 
 /* Caixa de pesquisa */
 .search {
-    padding: var(--search-padding);
+    padding: var(--search-padding) var(--side-padding);
 }
 
 .search-form {
@@ -45,7 +46,7 @@
 }
 
 .search-input {
-    width: 100%;
+    width: var(--search-input-width);
     height: var(--search-input-height);
     padding-left: var(--search-input-padding-left);
 }

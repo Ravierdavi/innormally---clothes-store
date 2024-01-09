@@ -4,7 +4,7 @@
     grid: 'title' 'text' 'form' 'disclaimer';
     max-width: var(--newsletter-max-width);
     margin: auto;
-    padding: var(--newsletter-padding);
+    padding: var(--newsletter-padding) var(--side-padding);
 }
 
 .newsletter-title {
