@@ -13,12 +13,12 @@
     --heading-h2: 1rem;
     --heading-section: 1.5rem;
     --paragraph: 1rem;
-    --paragraph-smaller: .75rem;
-    --paragraph-extra-smaller: .6875rem;
+    --paragraph-smaller: .875rem;
+    --paragraph-extra-smaller: .75rem;
     --pitchBar-slide-content-font-size: 1rem;
     --hot-list-link: 2rem;
-    --feature-product-name-font-size: .75rem;
-    --feature-product-price-font-size: .875rem;
+    --feature-product-name-font-size: .875rem;
+    --feature-product-price-font-size: 1rem;
     --footer: .75rem;
 }
 
@@ -29,14 +29,15 @@
     --spacing-ul: 2rem;
     --spacing-heading-h1: .5rem;
     --spacing-heading-h2: 1rem;
+    --spacing-heading-newsletter: 1.25rem;
     --rounded-corners-border-radius: 3.125rem;
 
-    --header-height: 3.75rem;
-    --header-logo-width: 1.75rem;
-    --header-logo-height: 3.25rem;
-    --rightContent-width: 9.375rem;
-    --rightContent-min-width: 7.5rem;
-    --header-button-size: 1.875rem;
+    --header-height: 4rem;
+    --header-logo-width: 1.875em;
+    --header-logo-height: 3.5rem;
+    --rightContent-width: 10rem;
+    --rightContent-min-width: 8rem;
+    --header-button-size: 2rem;
     --header-button-padding: 0.3125rem;
     --header-button-border-radius: 50%;
 
@@ -78,6 +79,7 @@
     --feature-list-padding-bottom: 1.25rem;
     --feature-product-flex-basis: 11.25rem;
     --feature-product-max-width: 16rem;
+    --feature-product-line-height: 1.1;
     --feature-product-name-height: 2.5rem;
     --feature-product-name-margin-top: .313rem;
     --feature-product-button-height: 2rem;
@@ -120,6 +122,7 @@
     --footer-icon-width: 1.875rem;
     --footer-divider-height: .0625rem;
     --footer-divider-margin: 1.25rem 0 1.25rem 0;
-    --subFooter-gap: 1rem 5rem;
-    --footer-policy-links-flex-basis: 18rem;
+    --subFooter-grid-max-content: 22.5rem;
+    --subFooter-gap: 1rem;
+    --footer-policy-links-flex-basis: 20rem;
 }
