@@ -93,6 +93,11 @@ footer {
     font-size: var(--footer);
 }
 
-footer a {
+.footer-link {
+    line-height: var(--footer-line-height);
     color: var(--background-color);
+}
+
+.footer-contacts {
+    line-height: var(--footer-line-height);
 }

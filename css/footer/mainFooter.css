@@ -1,0 +1,62 @@
+/* Estilos para o rodapé (footer) */
+.mainFooter {
+    padding: var(--footer-padding) var(--side-padding);
+}
+
+.footer-section {
+    padding-bottom: var(--footer-section-padding-bottom);
+}
+
+.footer-section-divider {
+    height: var(--footer-section-divider-height);
+    margin: var(--footer-section-divider-margin);
+    background-color: var(--background-color);
+}
+
+.footer-link {
+    display: block;
+    transition: color 0.1s ease-in-out;
+}
+
+.footer-link:hover {
+    color: var(--footer-link-hover-color);
+}
+
+.footer-contact {
+    display: block;
+}
+
+.footer-social-icons {
+    display: flex;
+    gap: var(--footer-social-icons-gap);
+}
+
+.footer-icon {
+    width: var(--footer-icon-width);
+}
+
+.footer-divider {
+    height: var(--footer-divider-height);
+    margin: var(--footer-divider-margin);
+    background-color: var(--background-color);
+}
+
+.subFooter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: var(--subFooter-gap);
+}
+
+.footer-policy-links {
+    flex: 1 1 var(--footer-policy-links-flex-basis);
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-copyright {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

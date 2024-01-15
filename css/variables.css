@@ -3,6 +3,7 @@
     --primary-color: #101010;
     --secondary-color: #222;
     --background-color: #f5f5f5;
+    --footer-link-hover-color: #f00;
 }
 
 /* Tamanho de fontes */
@@ -109,4 +110,16 @@
     --newsletter-submit-button-height: 2.8125rem;
     --newsletter-submit-button-margin-bottom: 1.875rem;
     --newsletter-submit-button-padding: .625rem 1.25rem;
+
+    --footer-padding: 2.5rem;
+    --footer-line-height: 1.5rem;
+    --footer-section-padding-bottom: 1.25rem;
+    --footer-section-divider-height: .0625rem;
+    --footer-section-divider-margin: 0 0 1.25rem 0;
+    --footer-social-icons-gap: .625rem;
+    --footer-icon-width: 1.875rem;
+    --footer-divider-height: .0625rem;
+    --footer-divider-margin: 1.25rem 0 1.25rem 0;
+    --subFooter-gap: 1rem 5rem;
+    --footer-policy-links-flex-basis: 18rem;
 }
