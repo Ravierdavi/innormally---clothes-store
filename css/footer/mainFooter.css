@@ -42,21 +42,18 @@
 }
 
 .subFooter {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: minmax(min-content, var(--subFooter-grid-max-content));
+    justify-content: center;
     gap: var(--subFooter-gap);
 }
 
 .footer-policy-links {
-    flex: 1 1 var(--footer-policy-links-flex-basis);
     display: flex;
     justify-content: space-between;
 }
 
 .footer-copyright {
-    flex: 1 1 auto;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
