@@ -1,0 +1,43 @@
+@media screen and (min-width: 1024px) {
+    /* Estilos para a seção "Em alta" */
+    .hot {
+        grid-row: 3;
+    }
+
+    .hot-buttons {
+        margin-top: var(--hot-buttons-margin-top);
+    }
+
+    /* Estilos para a seção "Novidades" */
+    .feature {
+        grid-row: 4;
+    }
+
+    /* Estilos para a seção "Lançamentos" */
+    .release {
+        grid-row: 2;
+    }
+
+    /* Estilos para a seção "Para homens" e "Para mulheres" */
+    .man {
+        grid-column: 1;
+        grid-row: 5;
+    }
+
+    .woman {
+        grid-column: 1;
+        grid-row: 6;
+    }
+
+    .section-buttons {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        justify-content: space-around;
+        margin-top: var(--section-buttons-margin-top);
+    }
+
+    /* Estilos para a galeria de imagens */
+    .instagram-gallery {
+        grid-row: 7;
+    }
+}

@@ -1,6 +1,9 @@
-@import url('../components/header.css');
-@import url('../components/pitchBar.css');
-@import url('../components/newsletter.css');
+@import url('../../components/header/header.css');
+@import url('../../components/header/1024px.css');
+@import url('../../components/pitchBar.css');
+@import url('../../components/newsletter.css');
+@import url('../../components/newsletter/newsletter.css');
+@import url('../../components/newsletter/768px.css');
 
 /* Estilos para o conteúdo principal */
 .main-content {
@@ -25,11 +28,12 @@
 }
 
 .hot-buttons {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto;
     justify-content: space-around;
 }
 
-.hot-button {
+.section-button {
     display: grid;
     place-items: center;
     width: var(--hot-button-width);
@@ -37,7 +41,7 @@
     transition: 0.2s ease-in-out;
 }
 
-.hot-button:hover {
+.section-button:hover {
     text-decoration: underline;
     background-color: var(--secondary-color);
 }
