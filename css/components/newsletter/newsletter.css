@@ -52,12 +52,3 @@
 .disclaimer {
     grid-area: disclaimer;
 }
-
-@media (min-width: 768px) {
-    .newsletter {
-        grid: 'title form' 35px
-        'text form'
-        'disclaimer disclaimer' / 400px minmax(min-content, 550px);
-        justify-content: space-between;
-    }
-}
