@@ -16,7 +16,8 @@
 
     <!-- Estilos CSS -->
     <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/pages/home.css">
+    <link rel="stylesheet" href="./css/pages/home/home.css">
+    <link rel="stylesheet" href="./css/pages/home/1024px.css">
 
     <!-- Metatag Open Graph para Redes Sociais -->
     <meta property="og:title" content="Innormally - Moda atual">
@@ -35,8 +36,18 @@
     <div class="innormally-container">
         <!-- Cabeçalho -->
         <header class="header">
-            <div class="subHeader_bs">
-
+            <div class="bg-primary">
+                <div class="subHeader bs vertical-center">
+                    <div class="linksBox">
+                        <a href="#" class="subHeader-link">Sobre nós</a>
+                        <hr class="subHeader-link-divider">
+                        <a href="#" class="subHeader-link">Ajuda</a>
+                        <hr class="subHeader-link-divider">
+                        <a href="#" class="subHeader-link">
+                            <img src="img/img_svg/human_icon.svg" alt="Usuário" class="user">Entrar
+                        </a>
+                    </div>
+                </div>
             </div>
 
             <div class="mainHeader vertical-center">
@@ -45,6 +56,15 @@
                 </a>
 
                 <div class="rightContent">
+                    <div class="search bs">
+                        <form role="search" class="search-form">
+                            <input type="text" class="search-input rounded-corners" name="search" id="searchInput" placeholder="Buscar" class="search-input" aria-label="Digite o nome do produto que deseja encontrar">
+                            <button type="submit" class="header-button search-button" aria-label="Pesquisar">
+                                <img src="img/img_svg/search_icon.svg" alt="Ícone de pesquisa">
+                            </button>
+                        </form>
+                    </div>
+
                     <button class="searchButton header-button" title="Pesquisar">
                         <img src="img/img_svg/search_icon.svg" alt="Ícone de pesquisa">
                     </button>
@@ -129,7 +149,10 @@
         <main class="main-content">
             <section class="opening">
                 <a href="https://www.innormally.com" class="opening-link">
-                    <img src="img/img_mobile/oppeningImg.jpg" alt="Vista a mudança, viva com estilo!" class="opening-image">
+                    <picture>
+                        <source media="(min-width: 1024px)" srcset="img/img_bigScreen/openingImg.jpg">
+                        <img src="img/img_mobile/openingImg.jpg" alt="Vista a mudança, viva com estilo!">
+                    </picture>
                 </a>
             </section>
         
@@ -138,12 +161,15 @@
                     <h1 class="section-title">Em alta</h1>
         
                     <a href="#" class="hot-image-link">
-                        <img src="img/img_mobile/hotImg.jpg" alt="Infinity moletom masculino e Sweet moletom infantil" class="hot-image">
+                        <picture>
+                            <source media="(min-width: 1024px)" srcset="img/img_bigScreen/hotImg.jpg">
+                            <img src="img/img_mobile/hotImg.jpg" alt="Infinity moletom masculino e Sweet moletom infantil">
+                        </picture>
                     </a>
         
                     <div class="hot-buttons">
-                        <a href="#" class="hot-button rounded-corners bg-secondary"><span>Infinity</span></a>
-                        <a href="#" class="hot-button rounded-corners bg-secondary"><span>Sweet</span></a>
+                        <a href="#" class="section-button rounded-corners bg-secondary"><span>Infinity</span></a>
+                        <a href="#" class="section-button rounded-corners bg-secondary"><span>Sweet</span></a>
                     </div>
                 </div>
         
@@ -205,19 +231,28 @@
                     <div class="release-slides-container">
                         <div class="releaseSlide">
                             <a href="#">
-                                <img src="img/img_mobile/releaseImg.jpg" alt="Lançamento 1">
+                                <picture>
+                                    <source media="(min-width: 1024px)" srcset="img/img_bigScreen/releaseImg.jpg">
+                                    <img src="img/img_mobile/releaseImg.jpg" alt="Lançamento 1">
+                                </picture>
                             </a>
                         </div>
             
                         <div class="releaseSlide">
                             <a href="#">
-                                <img src="img/img_mobile/releaseImg.jpg" alt="Lançamento 2">
+                                <picture>
+                                    <source media="(min-width: 1024px)" srcset="img/img_bigScreen/releaseImg.jpg">
+                                    <img src="img/img_mobile/releaseImg.jpg" alt="Lançamento 2">
+                                </picture>
                             </a>
                         </div>
             
                         <div class="releaseSlide">
                             <a href="#">
-                                <img src="img/img_mobile/releaseImg.jpg" alt="Lançamento 3">
+                                <picture>
+                                    <source media="(min-width: 1024px)" srcset="img/img_bigScreen/releaseImg.jpg">
+                                    <img src="img/img_mobile/releaseImg.jpg" alt="Lançamento 3">
+                                </picture>
                             </a>
                         </div>
                     </div>
@@ -227,6 +262,34 @@
                         <span class="pagination-dot"></span>
                         <span class="pagination-dot"></span>
                     </div>
+                </div>
+            </section>
+
+            <section class="man bs">
+                <h1 class="section-title">Para homens</h1>
+            
+                <a href="#" class="man-image-link">
+                    <img src="img/img_bigScreen/manImg.jpg" alt="Produtos para homens">
+                </a>
+
+                <div class="section-buttons">
+                    <a href="#" class="section-button rounded-corners bg-secondary"><span>Calça Skell</span></a>
+                    <a href="#" class="section-button rounded-corners bg-secondary"><span>Submarine</span></a>
+                    <a href="#" class="section-button rounded-corners bg-secondary"><span>Gadtico</span></a>
+                </div>
+            </section>
+
+            <section class="woman bs">
+                <h1 class="section-title">Para mulheres</h1>
+            
+                <a href="#" class="woman-image-link">
+                    <img src="img/img_bigScreen/womanImg.jpg" alt="Produtos para mulheres">
+                </a>
+
+                <div class="section-buttons">
+                    <a href="#" class="section-button rounded-corners bg-secondary"><span>Berry</span></a>
+                    <a href="#" class="section-button rounded-corners bg-secondary"><span>Wook Kop</span></a>
+                    <a href="#" class="section-button rounded-corners bg-secondary"><span>Chess Grisely</span></a>
                 </div>
             </section>
             
