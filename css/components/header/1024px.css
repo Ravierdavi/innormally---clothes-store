@@ -1,0 +1,52 @@
+@media screen and (min-width: 1024px) {
+    /* Botões */
+    .searchButton, .menuButton {
+        display: none;
+    }
+
+    /* Caixa de pesquisa */
+    .header > .search {
+        display: none;
+    }
+
+    .search {
+        padding: 0;
+    }
+
+    .search-button {
+        width: var(--search-button-size);
+        height: var(--search-button-size);
+    }
+
+    /* Cabeçalho secundário */
+    .subHeader {
+        display: flex;
+        justify-content: flex-end;
+        max-width: var(--subHeader-max-width);
+        height: var(--subHeader-height);
+        margin: auto;
+        padding: 0 var(--side-padding);
+    }
+
+    .linksBox {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: var(--linksBox-width);
+    }
+
+    .subHeader-link-divider {
+        width: var(--subHeader-link-divider-width);
+        height: var(--subHeader-link-divider-height);
+        margin: 0;
+        border: none;
+        background-color: var(--primary-color);
+    }
+
+    .user {
+        width: var(--linksBox-user-width);
+        margin-right: var(--linksBox-user-margin-right);
+    }
+
+    /* Navegação */
+}

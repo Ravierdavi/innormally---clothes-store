@@ -1,7 +1,9 @@
-/* Cabeçalho */
+/* Cabeçalho principal */
 .mainHeader {
     justify-content: space-between;
+    max-width: var(--header-max-width);
     height: var(--header-height);
+    margin: auto;
     padding: 0 var(--side-padding);
 }
 
@@ -11,14 +13,11 @@
     height: var(--header-logo-height);
 }
 
-/* Navegação */
-/* em andamento */
-
 /* Botões */
 .rightContent {
     display: flex;
-    justify-content: space-between;
-    width: var(--rightContent-width);
+    align-items: center;
+    gap: 10px;
     min-width: var(--rightContent-min-width);
 }
 
