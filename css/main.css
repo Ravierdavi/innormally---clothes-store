@@ -1,6 +1,9 @@
-@import url(variables.css);
+@import url(variables/variables.css);
+@import url(variables/768px.css);
+@import url(variables/1024px.css);
 @import url(base/normalize.css);
-@import url(base/typography.css);
+@import url(base/typography/typography.css);
+@import url(base/typography/1024px.css);
 @import url(base/utilities.css);
 @import url(layout/grid.css);
 @import url(footer/mainFooter.css);

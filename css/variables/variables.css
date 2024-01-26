@@ -32,10 +32,10 @@
     --spacing-heading-newsletter: 1.25rem;
     --rounded-corners-border-radius: 3.125rem;
 
+    --header-max-width: 120rem;
     --header-height: 4rem;
     --header-logo-width: 1.875em;
     --header-logo-height: 3.5rem;
-    --rightContent-width: 10rem;
     --rightContent-min-width: 8rem;
     --header-button-size: 2rem;
     --header-button-padding: 0.3125rem;
@@ -47,6 +47,7 @@
     --search-input-padding-left: 3rem;
     --search-button-position: .46875rem;
     
+    --pitchBar-max-width: 54rem;
     --pitchBar-height: 3.44rem;
     --pitchBar-padding: 0 3rem;
     --pitchBar-arrow-button-size: 1.63rem;

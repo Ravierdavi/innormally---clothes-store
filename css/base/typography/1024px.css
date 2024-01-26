@@ -1,0 +1,114 @@
+@media screen and (min-width: 1024px) {
+    /* Estilos Gerais de Texto */
+    /* body {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: var(--base-font-size);
+        line-height: 1.6;
+        color: var(--primary-color);
+    } */
+
+    /* Estilos de Títulos */
+    /* h1 {
+        font-size: var(--heading-h1);
+        margin: 0 0 var(--spacing-heading-h1) 0;
+        color: var(--secondary-color);
+    }
+
+    .section-title {
+        font-size: var(--heading-section);
+    }
+
+    .newsletter-title {
+        font-size: var(--spacing-heading-newsletter);
+        margin: var(--newsletter-heading-margin);
+    }
+
+    h2 {
+        font-size: var(--heading-h2);
+        margin: 0 0 var(--spacing-heading-h2) 0;
+    } */
+
+    /* Estilos de Parágrafos */
+    /* p {
+        margin: var(--spacing-paragraph);
+    } */
+
+    .subHeader-link {
+        color: var(--primary-color);
+        font-size: var(--paragraph-extra-smaller);
+    }
+
+    /* .newsletter-text {
+        font-size: var(--paragraph-smaller);
+        margin-bottom: var(--newsletter-paragraph-margin-bottom);
+    }
+
+    .sr-only {
+        margin-bottom: var(--newsletter-sr-only-margin-bottom);
+        font-size: var(--paragraph-smaller);
+        font-weight: bold;
+    }
+
+    .submit-button {
+        font-size: var(--paragraph);
+        font-weight: bold;
+    }
+
+    .disclaimer {
+        font-size: var(--paragraph-extra-smaller);
+    }
+
+    .pitchBarSlide-content {
+        margin-left: var(--pitchBar-slide-content-margin-left);
+        font-size: var(--pitchBar-slide-content-font-size);
+    }
+
+    .pitchBarSlide-highLightText {
+        font-weight: bold;
+    }
+
+    .product {
+        line-height: var(--feature-product-line-height);
+    }
+
+    .product-name {
+        font-size: var(--feature-product-name-font-size);
+        color: var(--primary-color);
+        margin-top: var(--feature-product-name-margin-top);
+    }
+
+    .product-price {
+        font-size: var(--feature-product-price-font-size);
+    } */
+
+    /* Estilos de Listas */
+    /* ul {
+        list-style: none;
+        margin: var(--spacing-ul) 0 0 0;
+    }
+
+    .hot-list-link {
+        font-size: var(--hot-list-link);
+        font-weight: bold;
+        color: var(--primary-color);
+    } */
+
+    /* Estilos para Texto com Destaque */
+    /* strong {
+        font-weight: bold;
+    } */
+
+    /* Estilos para Texto de Rodapé */
+    /* footer {
+        font-size: var(--footer);
+    }
+
+    .footer-link {
+        line-height: var(--footer-line-height);
+        color: var(--background-color);
+    }
+
+    .footer-contacts {
+        line-height: var(--footer-line-height);
+    } */
+}

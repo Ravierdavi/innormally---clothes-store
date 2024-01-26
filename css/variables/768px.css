@@ -1,0 +1,26 @@
+@media screen and (min-width: 768px) {
+    /* Tamanho de fontes */
+    :root {
+        --heading-section: 2rem;
+    }
+
+    /* Espaçamentos */
+    :root {
+        --side-padding: 1.5rem;
+
+        --main-content-gap: 2.5rem;
+
+        /* --footer-padding: 2.5rem;
+        --footer-line-height: 1.5rem;
+        --footer-section-padding-bottom: 1.25rem;
+        --footer-section-divider-height: .0625rem;
+        --footer-section-divider-margin: 0 0 1.25rem 0;
+        --footer-social-icons-gap: .625rem;
+        --footer-icon-width: 1.875rem;
+        --footer-divider-height: .0625rem;
+        --footer-divider-margin: 1.25rem 0 1.25rem 0;
+        --subFooter-grid-max-content: 22.5rem;
+        --subFooter-gap: 1rem;
+        --footer-policy-links-flex-basis: 20rem; */
+    }
+}

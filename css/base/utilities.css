@@ -31,7 +31,7 @@
 }
 
 /* Ocultar Elementos */
-.hidden {
+.bs {
     display: none;
 }
 
@@ -44,3 +44,9 @@
     visibility: hidden;
 }
 
+/* Exibe todos os elementos para telas grandes */
+@media screen and (min-width: 1024px) {
+    .bs {
+        display: block;
+    }
+}
