@@ -1,6 +1,7 @@
 /* Estilos para a barra de pitch */
 .pitchBar {
     max-width: var(--pitchBar-max-width);
+    width: var(--pitchBar-width);
     height: var(--pitchBar-height);
     margin: auto;
     padding: var(--pitchBar-padding);
