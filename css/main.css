@@ -6,4 +6,5 @@
 @import url(base/typography/1024px.css);
 @import url(base/utilities.css);
 @import url(layout/grid.css);
-@import url(footer/mainFooter.css);
+@import url(footer/footer.css);
+@import url(footer/1024px.css);

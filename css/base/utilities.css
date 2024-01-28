@@ -44,9 +44,15 @@
     visibility: hidden;
 }
 
-/* Exibe todos os elementos para telas grandes */
+/* Exibe todos os elementos para telas grandes e omite os elementos para telas menores */
 @media screen and (min-width: 1024px) {
+    /* Big Screens */
     .bs {
         display: block;
+    }
+
+    /* Mobile */
+    .mb {
+        display: none;
     }
 }
