@@ -1,0 +1,15 @@
+@media screen and (min-width: 1024px) {
+    /* Estilos para o rodapé (footer) */
+    .mainFooter {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .footer-section-divider {
+        display: none;
+    }
+    
+    .subFooter {
+        justify-content: space-between;
+    }
+}
