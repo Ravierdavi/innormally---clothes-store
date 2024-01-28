@@ -5,10 +5,6 @@
     }
 
     /* Caixa de pesquisa */
-    .header > .search {
-        display: none;
-    }
-
     .search {
         padding: 0;
     }
