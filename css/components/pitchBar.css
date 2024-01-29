@@ -2,7 +2,7 @@
 .pitchBar {
     max-width: var(--pitchBar-max-width);
     width: var(--pitchBar-width);
-    height: var(--pitchBar-height);
+    min-height: var(--pitchBar-min-height);
     margin: auto;
     padding: var(--pitchBar-padding);
     overflow: hidden;
