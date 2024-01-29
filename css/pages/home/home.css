@@ -29,15 +29,16 @@
 
 .hot-buttons {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: repeat(auto-fit, var(--section-button-width));
     justify-content: space-around;
+    gap: var(--hot-buttons-gap);
 }
 
 .section-button {
     display: grid;
     place-items: center;
-    width: var(--hot-button-width);
-    height: var(--hot-button-height);
+    width: var(--section-button-width);
+    height: var(--section-button-height);
     transition: 0.2s ease-in-out;
 }
 
@@ -69,6 +70,7 @@
     grid-column: 1;
     grid-row: 3;
     max-width: var(--feature-max-width);
+    width: var(--feature-width);
     margin: auto;
 }
 
