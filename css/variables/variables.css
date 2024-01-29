@@ -48,8 +48,8 @@
     --search-button-position: .46875rem;
     
     --pitchBar-max-width: 54rem;
-    --pitchBar-width: 100%;
-    --pitchBar-height: 3.44rem;
+    --pitchBar-width: 100vw;
+    --pitchBar-min-height: 3.44rem;
     --pitchBar-padding: 0 3rem;
     --pitchBar-arrow-button-size: 1.63rem;
     --pitchBar-arrow-button-padding: .313rem;
@@ -66,8 +66,9 @@
     --main-content-gap: 3.75rem;
     --main-content-max-width: 85rem;
 
-    --hot-button-width: 7.5rem;
-    --hot-button-height: 2.5rem;
+    --hot-buttons-gap: .625rem;
+    --section-button-width: 7.5rem;
+    --section-button-height: 2.5rem;
     --hot-list-gap: 1.25rem;
     --hot-list-max-width: 80rem;
     --hot-list-item-height: 3.75rem;
@@ -76,6 +77,7 @@
     --hot-list-item-border-bottom-width-hover: .5rem;
 
     --feature-max-width: 69.375rem;
+    --feature-width: calc(100vw - var(--side-padding) * 2);
     --feature-scrollbar-height: .375rem;
     --feature-list-gap: 1.25rem;
     --feature-list-padding-bottom: 1.25rem;
